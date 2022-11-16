@@ -1,18 +1,18 @@
 package Zadanie03b;
 
-public class Picture extends Multimedia {
-    public Picture(String name) {
-        super(name, "Picture");
+public class Music extends Multimedia {
+    public Music(String name) {
+        super(name, "Music");
     }
 
-    public Picture(Multimedia multimedia) {
+    public Music(Multimedia multimedia) {
         super(multimedia);
     }
 
     @Override
     public Multimedia clone()
     {
-        return new Picture(this);
+        return new Music(this);
     }
 
     @Override

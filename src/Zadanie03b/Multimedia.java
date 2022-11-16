@@ -2,8 +2,8 @@ package Zadanie03b;
 
 public abstract class Multimedia
 {
-    private String name;
-    private String type;
+    protected String name;
+    protected String type;
 
     public Multimedia(String name, String type)
     {
